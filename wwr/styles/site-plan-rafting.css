@@ -8,13 +8,13 @@ body {
 
 :root {
     --primary-color:#254D32;
-    --secondry-color: #181D27;
+    --secondary-color: #181D27;
     --accent1-color: #69B578;
     --accent2-color: #D0DB97;
 
     --heading-font: 'Rock Salt', cursive;
     --paragraph-font: 'Roboto', sans-serif;
-
+    
     --nav-background-color: #69B578;
     --nav-link-color: #181D27;
     --nav-hover-link-color: #254D32;
