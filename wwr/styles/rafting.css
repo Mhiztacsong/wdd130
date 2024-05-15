@@ -39,7 +39,7 @@ body {
     opacity: 0.8;
 }
 
-.hero article {
+article {
     position: absolute;
     top: 120px;
     left: 700px;
@@ -55,4 +55,5 @@ body {
 
 .hero article img { 
     float: right;
+    width: 200px;
 }
