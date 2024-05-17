@@ -39,14 +39,14 @@ body {
 .hero h1 {
     position: absolute;
     top: -8px;
-    left: 180px;
+    left: 130px;
     background-color: #39393A;
     opacity: 0.8;
 }
 
 article {
     position: absolute;
-    top: 93px;
+    top: 100px;
     left: 700px;
     right: 30px;
     background-color: #85FFC7;
