@@ -62,7 +62,7 @@ article p {
 
 h2 {
     font-size: 2rem;
-    font-weight: 2000;
+    font-weight: 1000;
 }
 .hero img {
     width: 100%;
@@ -168,7 +168,7 @@ figcaption {
     margin-top: 0;
     color: #FF8552;
     font-size: 2rem;
-    font-weight: 5000;
+    font-weight: 1000;
 }
 
 .event p {
