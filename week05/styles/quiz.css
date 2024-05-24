@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inconsolata;
+    font-size: 1.2rem;
+    color: #333;
+    background: #fff;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: navy;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 5px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: gray;
+    display: grid;
+}
+
+input[type="text"],
+input[type="number"] {
+    height: 30px;
+    padding: .7rem;
+}
+
+textarea {
+    padding: .7rem;
+}
+
+select {
+    height: 30px;
+}
+
+button {
+    margin: 1rem 15rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: rgb(19, 61, 19);
+}
+
+label {
+    color: yellow;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #777;
+    border-top: 1px solid #ccc;
+}
+.container {
+    display: grid;
+}
+
+.container code { 
+    background-color: #333;
+    color: white;
+    padding: .7rem; 
+    display: flex;
+    justify-content: center;
+    margin: 0 2.5rem;
+}
+
+
