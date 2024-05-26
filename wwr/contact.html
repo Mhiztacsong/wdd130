@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Contact Us page | Johnson Nsisong Gabriel</title>
+        <meta name="description" content="The contact us page contains infrafting company">
+        <meta name="author" content="Johnson Nsisong Gabriel">
+        <link href="styles/rafting.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.png" alt="Rafting Site Logo">
+            <nav>
+                <a href="index.html" target="_blank">Home</a>
+                <a href="about.html" target="_blank">About Us</a>
+                <a href="trips.html"  target="_blank">Trips</a>
+                <a href="contact.html" target="_blank">Contact Us</a>
+            </nav>
+        </header>
+        <main>
+            <div class="grid">
+                <section class="information">
+                    
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31733.89538090894!2d7.904181753369184!3d5.041672417627898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1716566849050!5m2!1sen!2sng"
+                         width="525" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </section>
+                <section class="employee">
+                    <div class="image-container">
+                        <figure>
+                            <img src="images/employee1.jpg" alt="White Water Rafting">
+                            <figcaption>Miracle Stephen</figcaption>
+                        </figure>
+                        <figure class="victoria">
+                            <img src="images/employee3.jpg" alt="White Water Rafting">
+                            <figcaption>Victoria Ezekiel</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/employee2.jpg" alt="White Water Rafting">
+                            <figcaption>Fantastic Akpan</figcaption>
+                        </figure>
+                    </div >
+                    <div class="flex">
+                        <div>
+                            <h2>Address</h2>
+                            <p>121 Emnaco street off Nwaniba road, uyo, Akwa-ibom state.</p>
+                        </div>
+                        <div class="link">
+                            <h2>Contacts</h2>
+                            <p>+2348171238467, +234905083298</p>
+                            <p>If you have any questions, feel free to<a href="mailto:jgabriel13813@gmail.com">Email Us</a></p>
+                        </div>
+                    </div>
+                </section>
+                <div class="form-container">
+                    <h2>Contact Us</h2>
+                    <form action="submit_form.php" method="post">
+                        <fieldset>
+                            <legend>Contact Information</legend>
+                            <div class="form-item column2">
+                                <label for="fullname">Full Name:</label><br>
+                                <input type="text" id="fullname" name="fullname" placeholder="Enter your full name..">
+                            </div>
+                            <br>
+                            <div class="form-item column2">
+                                <label for="useremail">Email:</label><br>
+                                <input type="email" id="useremail" name="useremail" placeholder="Enter your email address..">
+                            </div>
+                        </fieldset>
+                        <br>
+                        <div class="form-group1">
+                            <label for="purpose">Purpose of Message:</label>
+                            <br>
+                            <div class="radio-group">
+                                <br>
+                                <label><input type="radio" name="purpose" value="General Inquiry"> General Inquiry</label>
+                                <br>
+                                <label><input type="radio" name="purpose" value="Reservation Question"> Reservation Question</label>
+                                <br>
+                                <label><input type="radio" name="purpose" value="Website Suggestion"> Website Suggestion</label>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <br>
+                            <textarea id="message" name="message" rows="6" placeholder="Type your message here.."></textarea>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" id="subscribe" name="subscribe">
+                            <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                        </div>
+                        <div class="form-group2">
+                            <button type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 | Thrill Seekers Rafting Excursions | Created by Johnson Nsisong Gabriel</p>
+            <nav class="sociallinks">
+                <a href="https://facebook.com"><img src="images/facebook.webp" alt="Facebook"></a>
+                <a href="https://twitter.com"><img src="images/twitter.webp" alt="Twitter"></a>
+                <a href="https://instagram.com"><img src="images/instagram.webp" alt="Instagram"></a>
+            </nav>
+        </footer>
+    </body>
+</html>
