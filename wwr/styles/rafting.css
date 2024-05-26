@@ -140,10 +140,6 @@ footer {
 footer p {
     color: white;
 }
-figcaption {
-    color: #FF8552;
-    font-size: 1.3rem;
-}
 
 .sociallinks {
     display: flex;
@@ -226,6 +222,8 @@ figcaption {
 textarea {
     margin: .5rem 3rem;
     width: 300px;
+    padding: 0.5rem;
+    font-size: 1.1rem;
 }
 
 input[type="text"],
@@ -268,11 +266,6 @@ button:hover {
     justify-content: center;
 }
 
-textarea {
-    padding: 0.5rem;
-    font-size: 1.1rem;
-}
-
 p {
     color: white;
 }
@@ -281,8 +274,13 @@ p {
     height: 188px;
 }
 
-label {
+label  {
     font-size: 20px;
+}
+
+.form-group1 p {
+    font-size: 20px;
+    color: black;
 }
 
 legend {
@@ -293,6 +291,8 @@ legend {
 figcaption {
     display: flex;
     justify-content: center;
+    color: #FF8552;
+    font-size: 1.3rem;
 }
 
 .flex {
