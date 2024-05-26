@@ -20,13 +20,15 @@ p {
 
 a {
     text-decoration: none;
-    padding: 10px;
-    border-style: groove;
+    padding: 5px;
+    border-style: inset;
     color: white;
     border-color: #ff8652d0;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 10px;
     border-radius: 10px;
+    font-size: 1.3rem;
+    font-weight: 400;
 }
 
 
@@ -139,7 +141,8 @@ footer p {
     color: white;
 }
 figcaption {
-    color: white;
+    color: #FF8552;
+    font-size: 1.3rem;
 }
 
 .sociallinks {
@@ -190,7 +193,7 @@ figcaption {
 
 .link a {
     border: 0;
-    color: rgb(6, 101, 245);
+    color: rgb(30, 204, 248);
     margin-left: 0;
 }
 
@@ -208,8 +211,12 @@ figcaption {
     padding: 1rem;
     border: 5px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
-    background-color: #eeeeee9f;
+    background-color: #eee;
     display: grid;
+}
+
+.form-container h2 {
+    color: #297373;
 }
 
 .radio-group {
