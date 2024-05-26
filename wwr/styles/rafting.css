@@ -249,6 +249,7 @@ button {
     border-radius: .5rem;
     padding: .75rem;
     font-size: 1.2rem;
+    margin-top: 40px;
 }
 
 button:hover {
@@ -289,9 +290,14 @@ figcaption {
 
 .flex {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; 
+    gap: 20px;   
 }
 
 .flex p {
     margin-top: .1rem;
+}
+
+.map {
+    margin-top: 20px;
 }
