@@ -12,7 +12,7 @@ h1, h2 {
     color: var(--main-color);
     font-family: var(--heading-font);
     font-size: 2rem;
-    font-weight: 1500;
+    font-weight: 1000;
 }
 
 p {
