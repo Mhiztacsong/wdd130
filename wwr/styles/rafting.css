@@ -12,7 +12,7 @@ h1, h2 {
     color: var(--main-color);
     font-family: var(--heading-font);
     font-size: 2rem;
-    font-weight: 1000;
+    font-weight: 1500;
 }
 
 p {
@@ -117,6 +117,7 @@ header img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
+    background-color: #39393A;
 }
 
 .history {
@@ -149,12 +150,12 @@ footer {
 
 footer p {
     color: white;
-    margin-left: 20px;
+    margin-left: 80px;
 }
 
 .sociallinks {
     display: flex;
-    margin-right: 200px;
+    margin-right: 50px;
 }
 
 .sociallinks a {
@@ -327,7 +328,7 @@ div img {
 }
 
 h3 {
-    color: #85FFC7;
+    color: #eee;
 }
 .information h1 {
     margin-left: 10px;
@@ -336,5 +337,5 @@ h3 {
 
 footer p a {
     border: none;
-    color: rgb(30, 204, 248);
+    color: rgb(241, 245, 5);
 }
