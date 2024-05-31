@@ -23,15 +23,17 @@ p {
 
 a {
     text-decoration: none;
-    padding: 5px;
-    border-style: inset;
+    padding: 0px;
+    border-collapse: collapse;
+    border: 3px solid white;
     color: white;
-    border-color: #ff8652d0;
-    justify-content: space-around;
-    margin: 5px;
-    border-radius: 10px;
-    font-size: 1.3rem;
+    border-color: #6d2d11;
+    border-radius: 5px;
+    font-size: 1.5rem;
     font-weight: 400;
+    width: 150px;
+    text-align: center;
+    align-content: center;
 }
 
 body {
@@ -89,18 +91,22 @@ header {
     background-color: #297373;
     height: auto;  
     margin-bottom: 5px ; 
+    margin-top: 1rem;
 }
 
 nav {
     display: flex;
     justify-items: stretch;
     margin-left: 80px;
+    margin-right: 120px;
+    height: 40px;
 }
 
 header img {
-    padding: 30px;
+    padding: 20px;
     height: auto;
-    margin-left: 70px;
+    margin-left: 150px;
+    width: 250px;
 }
 
 .adventures{
@@ -146,6 +152,8 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: #297373;
+    margin-bottom: 1rem;
+    padding: 1rem;
 }
 
 footer p {
@@ -153,15 +161,11 @@ footer p {
     margin-left: 80px;
 }
 
-.sociallinks {
-    display: flex;
-    margin-right: 50px;
-}
-
 .sociallinks a {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     border-style: hidden;
+    width: 80px;
 }
 
 .timeline {
@@ -338,4 +342,132 @@ h3 {
 footer p a {
     border: none;
     color: rgb(241, 245, 5);
+}
+
+.banner img {
+    width: 1500px;
+    margin-left: 0;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner h1 {
+    position: absolute;
+    top: 120px;
+    left: 230px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    color: white;
+}
+
+.trip1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 0;
+    justify-content: space-around;
+}
+
+.trip2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.wwr,
+.fff,
+.swe,
+.ssf,
+.uac{
+    margin: 2rem 2rem;
+    background-color: #2e363d;
+    border: 1px solid white;
+    border-radius: 2rem;
+    align-content: center;
+    padding: 1rem;
+    text-align: center;
+}
+
+aside h2 {
+    margin-top: .3rem;
+}
+
+aside p {
+    font-size: 20px;
+}
+
+aside img {
+    width: 400px;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    border: 3px solid white;
+    width: 1500px;
+    margin-bottom: 1rem;
+    height: 500px;
+}
+
+caption {
+    color: #FF8552;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 40px;
+    margin-right: 1000px;
+    font-family: var(--heading-font)
+}
+
+thead {
+    background-color: #6d2d11;
+}
+
+thead > tr > th {
+    font-size: 30px;
+}
+
+tbody > tr:nth-of-type(even) {
+    background-color: #596660;
+}
+
+tbody > tr > td:last-of-type {
+    text-align: right;
+}
+
+th,
+td {
+    border: .3px solid white;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+}
+
+.get-in-touch {
+    background-color: #2e363d;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem 30rem;
+    width: 600px;
+    border: 1px solid white;
+    border-radius: 2rem;
+}
+
+.get-in-touch p {
+    font-size: 30px;
+    margin-top: .3rem;
+}
+
+.get-in-touch a {
+    width: 120px;
+    margin: 1rem 15rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: #6d2d11;
 }
