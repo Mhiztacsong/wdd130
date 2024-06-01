@@ -158,14 +158,18 @@ footer {
 
 footer p {
     color: white;
-    margin-left: 80px;
+    margin-left: 60px;
 }
 
 .sociallinks a {
     display: flex;
     justify-content: space-evenly;
     border-style: hidden;
-    width: 80px;
+    width: 60px;
+}
+
+.sociallinks {
+    margin-left: 250px;
 }
 
 .timeline {
@@ -342,6 +346,7 @@ h3 {
 footer p a {
     border: none;
     color: rgb(241, 245, 5);
+    margin-left: 10px;
 }
 
 .banner img {
@@ -470,4 +475,99 @@ td {
     border: 1px solid black;
     border-radius: 1rem;
     background-color: #6d2d11;
+}
+
+
+.newsletter {
+    padding: 20px;
+    background-color: #2e363d;
+    text-align: center;
+}
+
+.newsletter input[type="text"],
+.newsletter input[type="email"] {
+    padding: 10px;
+    margin: 5px;
+    width: 90%;
+    height: 30px;
+    max-width: 300px;
+    font-size: 20px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #003f7f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.newsletter button:hover {
+    background-color: #42d824;
+}
+
+.cta {
+    padding: 50px;
+    background-color: #1e5757;
+    color: white;
+    text-align: center;
+}
+
+.cta h2 {
+    margin-bottom: 100px;
+}
+
+.cta a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #6d2d11;
+    border-radius: 5px;
+}
+
+.cta a:hover {
+    background-color: #003f7f;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.content img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.content div {
+    padding: 20px;
+}
+
+.content p {
+    font-size: 20px;
+}
+
+.thrill img {
+    width: 1500px;
+    margin-left: 0;
+}
+
+.thrill {
+    position: relative;
+}
+
+.thrill h1 {
+    position: absolute;
+    top: 95px;
+    left: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    color: white;
+    text-align: center;
 }
