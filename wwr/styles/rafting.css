@@ -484,6 +484,10 @@ td {
     text-align: center;
 }
 
+.newsletter label {
+    color: white;
+}
+
 .newsletter input[type="text"],
 .newsletter input[type="email"] {
     padding: 10px;
@@ -571,3 +575,5 @@ td {
     color: white;
     text-align: center;
 }
+
+
