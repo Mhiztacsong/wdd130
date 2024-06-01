@@ -72,8 +72,8 @@ article p {
 }
 
 .hero img {
-    width: 100%;
-    height: auto;
+    width: 1500px;
+    margin-left: 0;
 }
 
 .hero article img { 
