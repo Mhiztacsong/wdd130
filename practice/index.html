@@ -96,6 +96,12 @@
     hamburger.addEventListener('click', () => {
       navMenu.classList.toggle('visible'); // Toggle the "visible" class
     });
+
+    document.addEventListener('click', (event) => {
+        if (!navMenu.contains(event.target) && !hamburger.contains(event.target)) {
+            navMenu.classList.remove('visible');
+        }
+    })
   </script>
 </body>
 </html>
