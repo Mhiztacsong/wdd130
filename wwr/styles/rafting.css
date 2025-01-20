@@ -139,7 +139,7 @@ header img {
 }
 
 figure {
-    margin: 1rem;
+    margin: 1rem 0;
 }
 
 figure img {
@@ -370,8 +370,6 @@ footer p a {
 .trip1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 0;
-    justify-content: space-around;
 }
 
 .trip2 {
@@ -384,7 +382,7 @@ footer p a {
 .swe,
 .ssf,
 .uac{
-    margin: 2rem 2rem;
+    margin: 2rem 1rem;
     background-color: #2e363d;
     border: 1px solid white;
     border-radius: 2rem;

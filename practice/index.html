@@ -1,14 +1,101 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Johnson Nsisong Gabriel | Website</title>
-    <meta name="description" content="just a simple website creation">
-    <meta name="author" content="Johnson Nsisong Gabriel">
-    <link href="styles/website.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slide-Out Nav Menu</title>
+  <style>
+    /* Reset and Basic Styling */
+    body, h1, ul, li, a, button {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: #333;
+      color: white;
+    }
+
+    .logo {
+      width: 50px;
+      height: 50px;
+    }
+
+    .hamburger {
+      font-size: 24px;
+      background: none;
+      border: none;
+      color: white;
+      cursor: pointer;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      right: -300px; /* Hidden off-screen initially */
+      width: 300px;
+      height: 100%;
+      background-color: #444;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transition: right 0.3s ease-in-out; /* Smooth sliding */
+      z-index: 1000;
+    }
+
+    nav ul {
+      list-style: none;
+    }
+
+    nav ul li {
+      margin: 20px 0;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+    }
+
+    nav.visible {
+      right: 0; /* Slide into view */
+    }
+  </style>
 </head>
 <body>
-    <img src="images/rafting57_1024.jpg" alt="background image">
+  <header>
+    <h1>My Website</h1>
+    <img src="images/haven-logo.webp" alt="Logo" class="logo">
+    <button class="hamburger" id="hamburger">&#9776;</button>
+  </header>
+  <nav id="navMenu">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#directory">Directory</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About Us</a></li>
+    </ul>
+  </nav>
+  <script>
+    // Select the hamburger button and the nav menu
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('navMenu');
+
+    // Add click event listener to toggle the menu
+    hamburger.addEventListener('click', () => {
+      navMenu.classList.toggle('visible'); // Toggle the "visible" class
+    });
+  </script>
 </body>
 </html>
